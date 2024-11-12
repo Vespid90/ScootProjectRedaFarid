@@ -1,0 +1,12 @@
+@use "variables";
+
+main {
+  .about-container {
+    background-image: url('html/images/About/backgroundAbout-container.jpg');
+    &__h1 {
+      @include variables.h1;
+    }
+  }
+}
+
+

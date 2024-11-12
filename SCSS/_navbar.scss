@@ -1,0 +1,11 @@
+@import "variables.scss";
+
+@mixin media-minwidth($screensize) {
+  @media (max-width: $screensize) {
+    @content;
+  }
+}
+
+.nav-container{
+    
+}

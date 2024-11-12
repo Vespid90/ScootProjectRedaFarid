@@ -9,10 +9,13 @@
 .nav-container{
     @include media-minwidth($mobile-display){
         &__hamburger{
-            
+            background-image: url('html\images\Header\hamburger.svg');
+            text-align: left;
         }
         &__h1{
-            
+            text-align: center;
         }
     }
 }
+
+

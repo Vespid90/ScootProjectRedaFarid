@@ -4,23 +4,96 @@
     background-image: url("../html/images/About/backgroundAbout-container.jpg");
     width: 100%;
     height: auto;
+    align-content: center;
+    height: 10rem;
     margin-top: 4rem;
   }
   body main .about-container__h1 {
+    font-family: "Space Mono", monospace;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3rem;
+    letter-spacing: -2.5px;
+    color: #FFFFFF;
     width: 100%;
     height: auto;
-    top: 124px;
-    left: 32px;
-    gap: 0px;
-    opacity: 0px;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: -1.7857142687px;
+    top: 7.75rem;
+    left: 2rem;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: -1.79px;
     text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    color: #FFFFFF;
+  }
+  body main .advantages-container {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 27%;
+  }
+  body main .advantages-container__card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    top: 18.5rem;
+    left: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    top: 35.4rem;
+    left: 2rem;
+    border: 2rem;
+    align-content: center;
+  }
+  body main .advantages-container__card--h3 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 27%;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Space Mono", monospace;
+    line-height: 3rem;
+    letter-spacing: -1.43px;
+    color: #495567;
+    top: 41.4rem;
+    left: 2rem;
+    font-size: 2rem;
+    line-height: 2rem;
+    letter-spacing: -1.43px;
+  }
+  body main .advantages-container__card--p {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 27%;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: #939CAA;
+    top: 47.4rem;
+    left: 2rem;
+  }
+  body main .ours-values-container__h2 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 27%;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Space Mono", monospace;
+    line-height: 3rem;
+    letter-spacing: -1.43px;
+    color: #495567;
+    top: 41.4rem;
+    left: 2rem;
+    font-size: 2rem;
+    line-height: 2rem;
+    letter-spacing: -1.43px;
   }
 }
 

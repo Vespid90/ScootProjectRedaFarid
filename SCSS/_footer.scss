@@ -1,13 +1,176 @@
-@use 'variables';
+@use "./variables.scss";
 
 @mixin media-maxwidth($screensize) {
-  @media (min-width: $screensize) {
+  @media (max-width: $screensize) {
     @content;
   }
 }
 
-.section-container{
-    @include media-maxwidth(variables.$mobile-display){
-        background-image: url('/html/images/footer/BackgroundSignupAndScootOffFooter.jpg')
+.section-container {
+  background-color: variables.$dark-navy;
+  font-family: variables.$space-mono;
+  font-weight: 700;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+  &__card {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    width: 100%;
+    justify-content: flex-start;
+    padding-left: 12%;
+    padding-right: 12%;
+    &--h5 {
+      font-size: 28px;
+      color: white;
+      word-break: break-word;
+      flex-grow: 1;
+      span {
+        word-break: break-word;
+        display: block;
+      }
     }
+    &--social {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      .GooglePlay,.AppStore {
+        color: variables.$dark-navy;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: variables.$light-grey;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap :5px;
+        height: 50%;
+        img {
+          height: 28px;
+          width: 24px;
+        }
+        p {
+          font-size: 8px;
+        }
+        p span {
+          word-break: break-word;
+          font-size: 16px;
+          display: block;
+        }
+      }
+    }
+  }
+  @include media-maxwidth(variables.$tablet-display) {
+    &__card {
+      flex-direction: column;
+      align-items: center;
+      &--h5 {
+        text-align: center;
+        color: white;
+      }
+
+      &--social {
+        flex-direction: row;
+        gap: 10px;
+        align-items: center; 
+      }
+
+      .GooglePlay,
+      .AppStore {
+        padding: 6px;
+        font-size: 12px; 
+        min-width: 120px;
+        img {
+          height: 24px;
+          width: 20px; 
+        } 
+      }
+    }
+  }
+
+  @include media-maxwidth(variables.$mobile-display) {
+    &__card {
+      flex-direction: column;
+      align-items: center;
+      &--h5 {
+        text-align: center;
+        font-size: 20px; 
+        color: white;
+      }
+
+      &--social {
+        flex-direction: row;
+        gap: 5px;
+        align-items: center; 
+        padding: 10px 0;
+      }
+
+      .GooglePlay,
+      .AppStore {
+        padding: 6px;
+        font-size: 12px; 
+        min-width: 120px; 
+        img {
+          height: 24px;
+          width: 20px; 
+        }
+      }
+    }
+  }
+}
+.container-footer {
+  padding: 20px;
+  font-family: variables.$space-mono;
+  display: flex;
+  flex-direction: row;
+  background-color: variables.$dark-footer;
+  &__h6 {
+    font-size: 28px;
+    color: white;
+  }
+  &__ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    li {
+      list-style-type: none;
+      a,
+      a:link,
+      a:visited {
+        display: block;
+        color: variables.$dim-grey;
+        font-size: 12px;
+        padding: 10px;
+        text-decoration: none;
+
+        a:hover {
+          color: variables.$yellow;
+        }
+      }
+    }
+  }
+  &__socialNetwork {
+    a {
+      margin-right: 10px;
+      img {
+        width: auto;
+        height: auto;
+      }
+    }
+  }
+  @include media-maxwidth(variables.$mobile-display) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    &__ul {
+      flex-direction: column;
+      padding-top: 10px;
+      padding-bottom: 25px;
+    }
+  }
 }

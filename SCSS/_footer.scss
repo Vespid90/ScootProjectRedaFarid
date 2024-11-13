@@ -37,6 +37,7 @@
       display: flex;
       flex-direction: row;
       gap: 10px;
+      padding-top: 15px;
       .GooglePlay,.AppStore {
         color: variables.$dark-navy;
         padding: 10px;
@@ -46,7 +47,7 @@
         flex-direction: row;
         align-items: center;
         gap :5px;
-        height: 50%;
+        height: 75%;
         img {
           height: 28px;
           width: 24px;
@@ -82,10 +83,7 @@
         padding: 6px;
         font-size: 12px; 
         min-width: 120px;
-        img {
-          height: 24px;
-          width: 20px; 
-        } 
+         
       }
     }
   }

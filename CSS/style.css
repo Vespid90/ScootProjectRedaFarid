@@ -113,6 +113,7 @@
   display: flex;
   flex-direction: row;
   gap: 10px;
+  padding-top: 15px;
 }
 .section-container__card--social .GooglePlay, .section-container__card--social .AppStore {
   color: rgb(73, 85, 103);
@@ -123,7 +124,7 @@
   flex-direction: row;
   align-items: center;
   gap: 5px;
-  height: 50%;
+  height: 75%;
 }
 .section-container__card--social .GooglePlay img, .section-container__card--social .AppStore img {
   height: 28px;
@@ -156,11 +157,6 @@
     padding: 6px;
     font-size: 12px;
     min-width: 120px;
-  }
-  .section-container__card .GooglePlay img,
-  .section-container__card .AppStore img {
-    height: 24px;
-    width: 20px;
   }
 }
 @media (max-width: 375px) {

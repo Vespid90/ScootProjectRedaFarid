@@ -18,14 +18,8 @@ $tablet-display: 768px;
 $mobile-display: 375px;
 
 //Mobile
-//main-about-container-mobile
-@mixin about-container {
-  width: 100%;
-  height: auto;
-  align-content: center;
-}
 
-//H1 mobile
+//H1
 @mixin h1 {
   font-family: $space-mono;
   font-size: 3rem;
@@ -33,43 +27,6 @@ $mobile-display: 375px;
   line-height: 3rem;
   letter-spacing: -2.5px;
   color: $snow
-}
-
-
-//advantages-container__card
-@mixin advantages-container {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  width: auto;
-  height: 27%;
-  text-align: center;
-}
-
-//Image 1 and 2 advantages
-@mixin img1 {
-  width: 19.4rem;
-  height: auto;
-}
-
-//Image arrow RightToLeftUp
-@mixin img-arrow-1 {
-  position: absolute;
-  width: 100%;
-  height: auto;
-  top: 130px;
-  left: 16px;
-  border: 1.9rem;
-}
-
-//Image arrow LeftToRightDown
-@mixin img-arrow-2 {
-  position: absolute;
-  width: 100%;
-  height: auto;
-  top: 542px;
-  left: -16px;
-  border: 1.9rem;
 }
 
 //H3
@@ -84,7 +41,7 @@ $mobile-display: 375px;
   font-weight: 700;
   line-height: 3rem;
   letter-spacing: -1.43px;
-  color: #495567
+  color: $dark-navy;
 }
 
 //H4
@@ -93,13 +50,14 @@ $mobile-display: 375px;
   flex-direction: column;
   width: auto;
   height: 27%;
+  margin-top: 3rem;
   text-align: center;
   font-family: $space-mono;
   font-weight: 700;
   font-size: 1.5rem;
   line-height: 1.75rem;
   letter-spacing: -1.07px;
-  color: #495567
+  color: $dark-navy;
 }
 
 //P
@@ -113,69 +71,80 @@ $mobile-display: 375px;
   font-family: $lexend-deca;
   font-weight: 400;
   line-height: 1.5rem;
-  color:#939CAA
+  color:$dim-navy;
 }
 
-//ours-values-container
-@mixin ours-values-container {
-  display:flex;
+//about-container
+@mixin about-container {
+  width: 100%;
+  height: auto;
+  align-content: center;
+}
+
+//main-container
+@mixin main-container {
+  display: flex;
   flex-direction: column;
   width: auto;
   height: 27%;
-  text-align: center ;
 }
 
-//ours-values-container__card
-@mixin ours-values-container__card {
-  position: relative;
-  width: auto;
-  height: 27%;
+//Image advantages
+@mixin img-advantages {
+  width: 19.4rem;
+  height: auto;
+}
+
+//Image arrow RightToLeftUp
+@mixin img-arrow-1 {
+  position: absolute;
+  width: 95%;
+  height: auto;
+  margin-top: 128px;
+  margin-left: -318px;
+  border: 1.9rem;
+}
+
+//Image arrow LeftToRightDown
+@mixin img-arrow-2 {
+  position: absolute;
+  width: 95%;
+  height: auto;
+  margin-top: -5px;
+  margin-left: -338px;
+  border: 1.9rem;
 }
 
 //Image ours-values
-@mixin img-1 {
+@mixin img-ours-values {
   width: 15rem;
   height: auto;
   align-content: center;
 }
 
-//Image number-01
-@mixin img-01 {
+//Image number
+@mixin number {
   position: absolute;
   width: 6rem;
   height:auto;
-  top: 1683px;
-  left: 140px;
-  border: 1.9rem;
-  align-items: center;
-}
-
-//Image number-02
-@mixin img-02 {
-  position: absolute;
-  width: 6rem;
-  height: auto;
-  top: 2105px;
-  left:140px;
-  border: 1.9rem;
-  align-items: center;
-}
-
-//Image number-03
-@mixin img-03 {
-  position: absolute;
   margin-top: 180px;
-  width: 6rem;
-  height:auto;
-  left: 140px;
+  margin-left:-170px;
   border: 1.9rem;
-  align-items: center;
 }
 
-//FAQ Container
-@mixin FAQ-container {
-  display:flex;
-  flex-direction: column;
-  width: auto;
-  height: 27%;
+//FAQ-main
+@mixin details {
+  background-color: $light-grey;
+  margin: 1rem;
+  padding: 2rem;
+}
+
+//FAQ-summary
+@mixin summary {
+  font-family: $space-mono;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  letter-spacing: -0.8px;
+  color:$dark-navy;
 }

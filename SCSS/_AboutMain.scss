@@ -21,13 +21,15 @@ body {
       }
     .advantages-container {
       margin-top: 4rem;
-      @include variables.advantages-container;
+      @include variables.main-container;
+      position: relative;
+      text-align: center;
       &__card {
         &--img1{
-          @include variables.img1;
+          @include variables.img-advantages;
         }
         &--img2{
-          @include variables.img1;
+          @include variables.img-advantages;
         }
         &--img-arrow-1{
           @include variables.img-arrow-1;
@@ -38,56 +40,53 @@ body {
       }
       &__card--h3 {
         @include variables.h3;
-        top: 41.4rem;
-        left: 2rem;
+        margin-top: 3.5rem;
         font-size: 2rem;
         line-height: 2rem;
         letter-spacing: -1.43px;
       }
       &__card--p {
         @include variables.p;
-        top: 47.4rem;
-        left: 2rem;
+        margin-bottom: 7.5rem;
       }
 
     }
     .ours-values-container {
-      @include variables.ours-values-container;
+      @include variables.main-container;
+      text-align: center;
       &__h3 {
         @include variables.h3;
-        top: 41.4rem;
-        left: 2rem;
+        margin-top: 4rem;
         font-size: 2rem;
         line-height: 2rem;
         letter-spacing: -1.43px;
       }
       &__card {
         &--img-1{
-          @include variables.img-1;
+          @include variables.img-ours-values;
         }
         &--img-2{
-          @include variables.img-1;
+          @include variables.img-ours-values;
         }
         &--img-3{
-          @include variables.img-1;
+          @include variables.img-ours-values;
         }
 
-        &--img-01 {
-          @include variables.img-01;
+        &--number-01 {
+          @include variables.number;
         }
 
-        &--img-02 {
-          @include variables.img-02;
+        &--number-02 {
+          @include variables.number;
         }
 
-        &--img-03 {
-          @include variables.img-03;
+        &--number-03 {
+          @include variables.number;
         }
       }
 
       &__card--h4 {
         @include variables.h4;
-        text-align: center;
       }
 
       &__card--p {
@@ -95,19 +94,26 @@ body {
       }
     }
     .FAQ-container {
-      @include variables.FAQ-container;
+      @include variables.main-container;
       &__h3 {
         @include variables.h3;
-        top: 41.4rem;
-        left: 2rem;
+        margin-top: 10rem;
+        margin-bottom: 1rem;
         font-size: 2rem;
         line-height: 2rem;
-        letter-spacing: -1.43px;
-        text-align: center;
       }
       &__h4{
         @include variables.h4;
         text-align: center;
+      }
+      &__details {
+        @include variables.details;
+        &--summary {
+          @include variables.summary;
+        }
+        &--p {
+          @include variables.p;
+        }
       }
     }
     }

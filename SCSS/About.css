@@ -26,11 +26,11 @@
   }
   body main .advantages-container {
     margin-top: 4rem;
-    position: relative;
     display: flex;
     flex-direction: column;
     width: auto;
     height: 27%;
+    position: relative;
     text-align: center;
   }
   body main .advantages-container__card--img1 {
@@ -43,18 +43,18 @@
   }
   body main .advantages-container__card--img-arrow-1 {
     position: absolute;
-    width: 100%;
+    width: 95%;
     height: auto;
-    top: 130px;
-    left: 16px;
+    margin-top: 128px;
+    margin-left: -318px;
     border: 1.9rem;
   }
   body main .advantages-container__card--img-arrow-2 {
     position: absolute;
-    width: 100%;
+    width: 95%;
     height: auto;
-    top: 542px;
-    left: -16px;
+    margin-top: -5px;
+    margin-left: -338px;
     border: 1.9rem;
   }
   body main .advantages-container__card--h3 {
@@ -68,9 +68,8 @@
     font-weight: 700;
     line-height: 3rem;
     letter-spacing: -1.43px;
-    color: #495567;
-    top: 41.4rem;
-    left: 2rem;
+    color: rgb(73, 85, 103);
+    margin-top: 3.5rem;
     font-size: 2rem;
     line-height: 2rem;
     letter-spacing: -1.43px;
@@ -85,9 +84,8 @@
     font-family: "Lexend Deca", sans-serif;
     font-weight: 400;
     line-height: 1.5rem;
-    color: #939CAA;
-    top: 47.4rem;
-    left: 2rem;
+    color: rgb(147, 156, 170);
+    margin-bottom: 7.5rem;
   }
   body main .ours-values-container {
     display: flex;
@@ -107,9 +105,8 @@
     font-weight: 700;
     line-height: 3rem;
     letter-spacing: -1.43px;
-    color: #495567;
-    top: 41.4rem;
-    left: 2rem;
+    color: rgb(73, 85, 103);
+    margin-top: 4rem;
     font-size: 2rem;
     line-height: 2rem;
     letter-spacing: -1.43px;
@@ -129,46 +126,43 @@
     height: auto;
     align-content: center;
   }
-  body main .ours-values-container__card--img-01 {
+  body main .ours-values-container__card--number-01 {
     position: absolute;
     width: 6rem;
     height: auto;
-    top: 1683px;
-    left: 140px;
-    border: 1.9rem;
-    align-items: center;
-  }
-  body main .ours-values-container__card--img-02 {
-    position: absolute;
-    width: 6rem;
-    height: auto;
-    top: 2105px;
-    left: 140px;
-    border: 1.9rem;
-    align-items: center;
-  }
-  body main .ours-values-container__card--img-03 {
-    position: absolute;
     margin-top: 180px;
+    margin-left: -170px;
+    border: 1.9rem;
+  }
+  body main .ours-values-container__card--number-02 {
+    position: absolute;
     width: 6rem;
     height: auto;
-    left: 140px;
+    margin-top: 180px;
+    margin-left: -170px;
     border: 1.9rem;
-    align-items: center;
+  }
+  body main .ours-values-container__card--number-03 {
+    position: absolute;
+    width: 6rem;
+    height: auto;
+    margin-top: 180px;
+    margin-left: -170px;
+    border: 1.9rem;
   }
   body main .ours-values-container__card--h4 {
     display: flex;
     flex-direction: column;
     width: auto;
     height: 27%;
+    margin-top: 3rem;
     text-align: center;
     font-family: "Space Mono", monospace;
     font-weight: 700;
     font-size: 1.5rem;
     line-height: 1.75rem;
     letter-spacing: -1.07px;
-    color: #495567;
-    text-align: center;
+    color: rgb(73, 85, 103);
   }
   body main .ours-values-container__card--p {
     display: flex;
@@ -180,7 +174,7 @@
     font-family: "Lexend Deca", sans-serif;
     font-weight: 400;
     line-height: 1.5rem;
-    color: #939CAA;
+    color: rgb(147, 156, 170);
   }
   body main .FAQ-container {
     display: flex;
@@ -199,27 +193,51 @@
     font-weight: 700;
     line-height: 3rem;
     letter-spacing: -1.43px;
-    color: #495567;
-    top: 41.4rem;
-    left: 2rem;
+    color: rgb(73, 85, 103);
+    margin-top: 10rem;
+    margin-bottom: 1rem;
     font-size: 2rem;
     line-height: 2rem;
-    letter-spacing: -1.43px;
-    text-align: center;
   }
   body main .FAQ-container__h4 {
     display: flex;
     flex-direction: column;
     width: auto;
     height: 27%;
+    margin-top: 3rem;
     text-align: center;
     font-family: "Space Mono", monospace;
     font-weight: 700;
     font-size: 1.5rem;
     line-height: 1.75rem;
     letter-spacing: -1.07px;
-    color: #495567;
+    color: rgb(73, 85, 103);
     text-align: center;
+  }
+  body main .FAQ-container__details {
+    background-color: rgb(229, 236, 244);
+    margin: 1rem;
+    padding: 2rem;
+  }
+  body main .FAQ-container__details--summary {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    letter-spacing: -0.8px;
+    color: rgb(73, 85, 103);
+  }
+  body main .FAQ-container__details--p {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 27%;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: rgb(147, 156, 170);
   }
 }
 

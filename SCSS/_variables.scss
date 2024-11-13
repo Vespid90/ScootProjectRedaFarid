@@ -32,7 +32,7 @@ $mobile-display: 375px;
   font-weight: 700;
   line-height: 3rem;
   letter-spacing: -2.5px;
-  color: #FFFFFF
+  color: $snow
 }
 
 //advantages-container
@@ -45,8 +45,8 @@ $mobile-display: 375px;
 
 
 //advantages-container__card
-@mixin advantages-container__card {
-  //position: relative;
+@mixin advantages-container {
+  position: relative;
   display: flex;
   flex-direction: column;
   width: auto;
@@ -55,23 +55,27 @@ $mobile-display: 375px;
 
 //Image 1 about
 @mixin img1 {
-  display: flex;
-  flex-direction: column;
   width: 100%;
   height: auto;
-  top: 18.5rem;
-  left: 2rem;
 }
 
 @mixin img-arrow-1 {
-  //position: absolute;
-  display: flex;
-  flex-direction: column;
+  position: absolute;
   width: 100%;
   height: auto;
-  top: 35.4rem;
-  left: 2rem;
-  border: 2rem;
+  top: 130px;
+  left: -5px;
+  border: 1.9rem;
+  align-content: center;
+}
+
+@mixin img-arrow-2 {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 546px;
+  left: -35px;
+  border: 1.9rem;
   align-content: center;
 }
 
@@ -84,8 +88,24 @@ $mobile-display: 375px;
   text-align: center;
   font-size: 3rem;
   font-family: $space-mono;
+  font-weight: 700;
   line-height: 3rem;
   letter-spacing: -1.43px;
+  color: #495567
+}
+
+//H4
+@mixin h4 {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 27%;
+  text-align: center;
+  font-family: $space-mono;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  letter-spacing: -1.07px;
   color: #495567
 }
 
@@ -108,5 +128,5 @@ $mobile-display: 375px;
   display:flex;
   flex-direction: column;
   width: auto;
-  height: 27%
+  height: 27%;
 }

@@ -21,10 +21,15 @@ body {
       }
     .advantages-container {
       margin-top: 4rem;
-      @include variables.advantages-container__card;
+      @include variables.advantages-container;
       &__card {
           @include variables.img1;
+        &--img-arrow-1{
           @include variables.img-arrow-1;
+        }
+        &--img-arrow-2{
+          @include variables.img-arrow-2;
+        }
       }
       &__card--h3 {
         @include variables.h3;
@@ -41,14 +46,22 @@ body {
       }
 
     }
-    .ours-values-container{
-      &__h2 {
+    .ours-values-container {
+      @include variables.ours-values-container;
+      &__h3 {
         @include variables.h3;
         top: 41.4rem;
         left: 2rem;
         font-size: 2rem;
         line-height: 2rem;
         letter-spacing: -1.43px;
+      }
+      &__card--h4 {
+        @include variables.h4;
+        text-align: center;
+      }
+      &__card--p {
+        @include variables.p;
       }
     }
     }

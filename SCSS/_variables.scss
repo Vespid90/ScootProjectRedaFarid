@@ -147,4 +147,16 @@ $mobile-display: 375px;
   line-height: 1.5rem;
   letter-spacing: -0.8px;
   color:$dark-navy;
+  list-style-image: url("../html/images/About/arrow-faq-close.svg");
+  list-style-position: outside;
 }
+
+//@mixin [open] summary {
+//  list-style-image: url("../html/images/About/arrow-faq-open.svg");
+//}
+
+//FAQ-marker
+//global value
+//list-style-position: revert;
+
+

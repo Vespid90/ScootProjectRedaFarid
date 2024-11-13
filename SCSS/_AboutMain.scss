@@ -111,8 +111,12 @@ body {
         &--summary {
           @include variables.summary;
         }
+        &--[open]summary {
+          list-style-image: url("../html/images/About/arrow-faq-open.svg");
+        }
         &--p {
           @include variables.p;
+          text-align: left;
         }
       }
     }

@@ -226,6 +226,11 @@
     line-height: 1.5rem;
     letter-spacing: -0.8px;
     color: rgb(73, 85, 103);
+    list-style-image: url("../html/images/About/arrow-faq-close.svg");
+    list-style-position: outside;
+  }
+  body main .FAQ-container__details--[open] summary {
+    list-style-image: url("../html/images/About/arrow-faq-open.svg");
   }
   body main .FAQ-container__details--p {
     display: flex;
@@ -238,6 +243,7 @@
     font-weight: 400;
     line-height: 1.5rem;
     color: rgb(147, 156, 170);
+    text-align: left;
   }
 }
 

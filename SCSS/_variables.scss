@@ -171,3 +171,11 @@ $mobile-display: 375px;
   border: 1.9rem;
   align-items: center;
 }
+
+//FAQ Container
+@mixin FAQ-container {
+  display:flex;
+  flex-direction: column;
+  width: auto;
+  height: 27%;
+}

@@ -1,21 +1,80 @@
-@import "variables.scss";
-
-@mixin media-minwidth($screensize) {
-  @media (min-width: $screensize) {
+@use "./variables.scss";
+@use "./reset.scss";
+@mixin media-maxwidth($screensize) {
+  @media (max-width: $screensize) {
     @content;
   }
 }
-
-.nav-container{
-    @include media-minwidth($mobile-display){
-        &__hamburger{
-            background-image: url('html\images\Header\hamburger.svg');
-            text-align: left;
-        }
-        &__h1{
-            text-align: center;
-        }
+.nav-container {
+  font-family: variables.$space-mono;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 10px;
+  &__hamburger {
+    display: none;
+  }
+  &__h1 {
+    text-align: left;
+    font-family: variables.$space-mono;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+  &__pages {
+    margin: auto;
+    gap: 15px;
+    display: flex;
+    flex-direction: row;
+    a,
+    a:link,
+    a:visited {
+      display: block;
+      color: variables.$dim-grey;
+      font-size: 12px;
+      padding: 10px;
+      text-decoration: none;
+      &:hover {
+        color: variables.$yellow;
+      }
     }
+  }
+  &__button {
+    margin: 0 auto;
+    padding: 8px;
+    font-size: 12px;
+    background-color: variables.$yellow;
+    border-style: solid;
+    border-width: 2px;
+    border-color: variables.$yellow;
+    color: variables.$snow;
+    cursor: pointer;
+    &:hover {
+      background-color: white;
+      color: variables.$yellow;
+    }
+  }
+
+  @include media-maxwidth(variables.$mobile-display) {
+    flex-direction: row;
+    align-items: center;
+
+    &__hamburger {
+      display: block;
+      color: variables.$yellow;
+      padding-top: 5px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    &__h1 {
+      cursor: pointer;
+      margin: 0 auto;
+      justify-content: center;
+    }
+
+    &__pages,
+    &__button {
+      display: none;
+    }
+  }
 }
-
-

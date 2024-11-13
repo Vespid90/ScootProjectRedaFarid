@@ -1,1 +1,13 @@
-@import "variables.scss";
+@use 'variables';
+
+@mixin media-maxwidth($screensize) {
+  @media (min-width: $screensize) {
+    @content;
+  }
+}
+
+.section-container{
+    @include media-maxwidth(variables.$mobile-display){
+        background-image: url('/html/images/footer/BackgroundSignupAndScootOffFooter.jpg')
+    }
+}

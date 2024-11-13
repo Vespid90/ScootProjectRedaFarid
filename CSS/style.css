@@ -1,22 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&family=Space+Mono:wght@400;700&display=swap");
-main .about-container {
-  background-image: url("html/images/About/backgroundAbout-container.jpg");
-}
-main .about-container__h1 {
-  width: 311px;
-  height: 40px;
-  top: 124px;
-  left: 32px;
-  gap: 0px;
-  opacity: 0px;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 40px;
-  letter-spacing: -1.7857142687px;
-  text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  color: #FFFFFF;
+@media (max-width: 375px) {
+  body main .about-container {
+    background-image: url("../html/images/About/backgroundAbout-container.jpg");
+    width: 100%;
+    height: auto;
+    margin-top: 4rem;
+  }
+  body main .about-container__h1 {
+    width: 100%;
+    height: auto;
+    top: 124px;
+    left: 32px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1.7857142687px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

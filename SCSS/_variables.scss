@@ -17,10 +17,18 @@ $desktop-display: 1440px;
 $tablet-display: 768px;
 $mobile-display: 375px;
 
+//Mobile
+//main-mobile-container
+@mixin main-mobile-container-h1 {
+  width: 100%;
+  height: auto;
+  margin-top: 4rem;
+}
+
 //H1 mobile
 @mixin h1 {
-  width: 311px;
-  height: 40px;
+  width: 100%;
+  height: auto;
   top: 124px;
   left: 32px;
   gap: 0px;

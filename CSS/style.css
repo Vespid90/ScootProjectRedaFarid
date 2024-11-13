@@ -9,10 +9,13 @@
 
 .nav-container {
   font-family: "Space Mono", monospace;
+  font-weight: 700;
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 10px 10px;
+  padding-left: 12%;
+  padding-right: 12%;
 }
 .nav-container__hamburger {
   display: none;
@@ -21,17 +24,18 @@
   text-decoration: none;
   text-align: left;
   font-family: "Space Mono", monospace;
-  padding-right: 10px;
+  font-size: 32px;
+  padding-right: 20px;
   cursor: pointer;
 }
 .nav-container__h1 :link,
 .nav-container__h1 :visited {
   display: block;
   text-decoration: none;
-  color: black;
+  color: rgb(73, 85, 103);
 }
 .nav-container__pages {
-  margin: auto;
+  padding-top: 5px;
   gap: 15px;
   display: flex;
   flex-direction: row;
@@ -51,9 +55,9 @@
   color: rgb(252, 183, 43);
 }
 .nav-container__button {
-  margin: 0 auto;
-  padding: 8px;
-  font-size: 12px;
+  margin-left: auto;
+  padding: 10px 24px 10px 24px;
+  font-size: 10px;
   background-color: rgb(252, 183, 43);
   border-style: solid;
   border-width: 2px;
@@ -78,6 +82,7 @@
     cursor: pointer;
   }
   .nav-container__h1 {
+    font-size: 24px;
     cursor: pointer;
     margin: 0 auto;
     justify-content: center;

@@ -5,12 +5,15 @@
     @content;
   }
 }
-.nav-container {
+.nav-container { 
   font-family: variables.$space-mono;
+  font-weight: 700;
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 10px 10px;
+  padding-left: 12%;
+  padding-right: 12%;
   &__hamburger {
     display: none;
   }
@@ -18,17 +21,18 @@
     text-decoration: none;
     text-align: left;
     font-family: variables.$space-mono;
-    padding-right: 10px;
+    font-size: 32px;
+    padding-right: 20px;
     cursor: pointer;
     :link,
     :visited {
       display: block;
       text-decoration: none;
-      color: black;
+      color: variables.$dark-navy;
     }
   }
   &__pages {
-    margin: auto;
+    padding-top: 5px;
     gap: 15px;
     display: flex;
     flex-direction: row;
@@ -46,14 +50,15 @@
     }
   }
   &__button {
-    margin: 0 auto;
-    padding: 8px;
-    font-size: 12px;
+    margin-left:auto;
+    padding: 10px 24px 10px 24px; 
+    font-size: 10px;
     background-color: variables.$yellow;
     border-style: solid;
     border-width: 2px;
     border-color: variables.$yellow;
     color: variables.$snow;
+    
     cursor: pointer;
     &:hover {
       background-color: white;
@@ -74,6 +79,7 @@
     }
 
     &__h1 {
+      font-size: 24px;
       cursor: pointer;
       margin: 0 auto;
       justify-content: center;

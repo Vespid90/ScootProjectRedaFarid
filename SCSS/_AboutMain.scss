@@ -23,7 +23,12 @@ body {
       margin-top: 4rem;
       @include variables.advantages-container;
       &__card {
+        &--img1{
           @include variables.img1;
+        }
+        &--img2{
+          @include variables.img1;
+        }
         &--img-arrow-1{
           @include variables.img-arrow-1;
         }
@@ -56,10 +61,35 @@ body {
         line-height: 2rem;
         letter-spacing: -1.43px;
       }
+      &__card {
+        &--img-1{
+          @include variables.img-1;
+        }
+        &--img-2{
+          @include variables.img-1;
+        }
+        &--img-3{
+          @include variables.img-1;
+        }
+
+        &--img-01 {
+          @include variables.img-01;
+        }
+
+        &--img-02 {
+          @include variables.img-02;
+        }
+
+        &--img-03 {
+          @include variables.img-03;
+        }
+      }
+
       &__card--h4 {
         @include variables.h4;
         text-align: center;
       }
+
       &__card--p {
         @include variables.p;
       }

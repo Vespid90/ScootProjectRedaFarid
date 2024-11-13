@@ -31,9 +31,14 @@
     flex-direction: column;
     width: auto;
     height: 27%;
+    text-align: center;
   }
-  body main .advantages-container__card {
-    width: 100%;
+  body main .advantages-container__card--img1 {
+    width: 19.4rem;
+    height: auto;
+  }
+  body main .advantages-container__card--img2 {
+    width: 19.4rem;
     height: auto;
   }
   body main .advantages-container__card--img-arrow-1 {
@@ -41,18 +46,16 @@
     width: 100%;
     height: auto;
     top: 130px;
-    left: -5px;
+    left: 16px;
     border: 1.9rem;
-    align-content: center;
   }
   body main .advantages-container__card--img-arrow-2 {
     position: absolute;
     width: 100%;
     height: auto;
-    top: 546px;
-    left: -35px;
+    top: 542px;
+    left: -16px;
     border: 1.9rem;
-    align-content: center;
   }
   body main .advantages-container__card--h3 {
     display: flex;
@@ -91,6 +94,7 @@
     flex-direction: column;
     width: auto;
     height: 27%;
+    text-align: center;
   }
   body main .ours-values-container__h3 {
     display: flex;
@@ -109,6 +113,48 @@
     font-size: 2rem;
     line-height: 2rem;
     letter-spacing: -1.43px;
+  }
+  body main .ours-values-container__card--img-1 {
+    width: 15rem;
+    height: auto;
+    align-content: center;
+  }
+  body main .ours-values-container__card--img-2 {
+    width: 15rem;
+    height: auto;
+    align-content: center;
+  }
+  body main .ours-values-container__card--img-3 {
+    width: 15rem;
+    height: auto;
+    align-content: center;
+  }
+  body main .ours-values-container__card--img-01 {
+    position: absolute;
+    width: 6rem;
+    height: auto;
+    top: 1683px;
+    left: 140px;
+    border: 1.9rem;
+    align-items: center;
+  }
+  body main .ours-values-container__card--img-02 {
+    position: absolute;
+    width: 6rem;
+    height: auto;
+    top: 2105px;
+    left: 140px;
+    border: 1.9rem;
+    align-items: center;
+  }
+  body main .ours-values-container__card--img-03 {
+    position: absolute;
+    margin-top: 180px;
+    width: 6rem;
+    height: auto;
+    left: 140px;
+    border: 1.9rem;
+    align-items: center;
   }
   body main .ours-values-container__card--h4 {
     display: flex;

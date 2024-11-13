@@ -15,10 +15,17 @@
     display: none;
   }
   &__h1 {
+    text-decoration: none;
     text-align: left;
     font-family: variables.$space-mono;
     padding-right: 10px;
     cursor: pointer;
+    :link,
+    :visited {
+      display: block;
+      text-decoration: none;
+      color: black;
+    }
   }
   &__pages {
     margin: auto;

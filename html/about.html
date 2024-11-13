@@ -9,15 +9,22 @@
     <title>Document</title>
 </head>
 <body>
-<header>
-    <nav class="nav-container">
-        <a class="nav-container__hamburger">
-        </a>
-        <h1 class="nav-container__h1">
-            scoot
-        </h1>
-    </nav>
-</header>
+    <header>
+        <nav class="nav-container">
+            <a class="nav-container__hamburger">
+                <img src="/html/images/Header/hamburger.svg"/>
+            </a>
+            <h1 class="nav-container__h1">
+                <a href="home.html">scoot</a>
+            </h1>
+            <div class="nav-container__pages">
+                <a href="about.html" >About</a>
+                <a href="locations.html">Location</a>
+                <a href="careers.html" >Careers</a>
+            </div>
+            <a class="nav-container__button">Get Scootin</a> 
+        </nav>
+    </header>
 <main>
     <section class="about-container">
         <h1 class="about-container__h1">
@@ -177,38 +184,32 @@
     <section class="section-container">
         <article class="section-container__card">
             <h5 class="section-container__card--h5">
-                Sign up and Scoot off today
+                Sign up and<span>Scoot off today</span> 
             </h5>
-            <a class="section-container__card--AppStore">
-                <div>
-                    <img src="images/footer/AppStore.jpg"/>
-                </div>
-                <div>
-                    Available on the<br><span>AppStore</span></br>
-                </div>
-            </a>
-            <a class="section-container_card--GooglePlay">
-                <div>
-                    <img src="images/footer/GooglePlay.jpg"/>
-                </div>
-                <div>
-                    Get it on<br><span>GooglePlay</span></br>
-                </div>
-            </a>
+            <div class="section-container__card--social">
+                <a class="AppStore">
+                    <img src="/html/images/footer/AppStore.svg"/>
+                    <p>Available on the<span>AppStore</span></p>
+                </a>
+                <a class="GooglePlay">
+                    <img src="/html/images/footer/GooglePlay.svg"/>
+                    <p>Get it on<span>GooglePlay</span></p>
+                </a>
+            </div>
         </article>
     </section>
-    <h5>scoot</h5>
     <nav class="container-footer">
-        <ul>
-            <li>About</li>
-            <li>Locations</li>
-            <li>Careers</li>
-        </ul>
+        <h6 class="container-footer__h6">scoot</h6>
+            <ul class="container-footer__ul">
+                <li><a href="about.html">About</a></li>
+                <li><a href="locations.html">Locations</a></li>
+                <li><a href="careers.html">Careers</a></li>
+            </ul>
+        <div class="container-footer__socialNetwork">
+            <a><img src="images/footer/Facebook.svg"/></a>
+            <a><img src="images/footer/Twitter.svg"/></a>
+            <a><img src="images/footer/Instagram.svg"/></a>
+        </div>
     </nav>
-    <div class="social-network">
-        <a><img src="images/footer/Facebook.jpg"/></a>
-        <a><img src="images/footer/Twitter.jpg"/></a>
-        <a><img src="images/footer/Instagram.jpg"/></a>
-    </div>
 </footer>
 </html>

@@ -298,4 +298,88 @@
   }
 }
 
+@media (max-width: 375px) {
+  .worldmap-container {
+    padding: 20px;
+  }
+  .worldmap-container__card {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: 22px;
+    color: rgb(73, 85, 103);
+    padding-bottom: 20px;
+  }
+  .worldmap-container__card--img {
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+  .worldmap-container__card--list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .worldmap-container__card--list li {
+    width: 100%;
+    white-space: nowrap;
+    list-style-type: none;
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(255, 244, 223);
+  }
+}
+
+@media (max-width: 375px) {
+  .cityNot-container {
+    padding: 20px;
+  }
+  .cityNot-container__card {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
+  .cityNot-container__card--h3 {
+    width: auto;
+    height: 27%;
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    line-height: 2rem;
+    letter-spacing: -1.43px;
+    color: rgb(73, 85, 103);
+    padding-bottom: 20px;
+  }
+  .cityNot-container__card--p {
+    width: auto;
+    height: 27%;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: rgb(147, 156, 170);
+    padding-bottom: 20px;
+  }
+  .cityNot-container__card--button {
+    align-items: center;
+    font-family: "Space Mono", monospace;
+    padding: 10px 34px 10px 34px;
+    font-weight: 700;
+    font-size: 12px;
+    background-color: rgb(252, 183, 43);
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(252, 183, 43);
+    color: rgb(242, 245, 249);
+    cursor: pointer;
+  }
+  .cityNot-container__card--button:hover {
+    background-color: white;
+    color: rgb(252, 183, 43);
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -284,6 +284,494 @@
 }
 
 @media (max-width: 375px) {
+  body main .about-container {
+    background-image: url("../html/images/About/backgroundAbout-container.jpg");
+    width: 100%;
+    height: auto;
+    align-content: center;
+    height: 10rem;
+  }
+  body main .about-container__h1 {
+    font-family: "Space Mono", monospace;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3rem;
+    letter-spacing: -2.5px;
+    color: rgb(242, 245, 249);
+    width: 100%;
+    height: auto;
+    top: 7.75rem;
+    left: 2rem;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: -1.79px;
+    text-align: center;
+  }
+  body main .advantages-container {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 27%;
+    position: relative;
+    text-align: center;
+  }
+  body main .advantages-container__card--img1 {
+    width: 19.4rem;
+    height: auto;
+  }
+  body main .advantages-container__card--img2 {
+    width: 19.4rem;
+    height: auto;
+  }
+  body main .advantages-container__card--img-arrow-1 {
+    position: absolute;
+    width: 95%;
+    height: auto;
+    margin-top: 128px;
+    margin-left: -318px;
+    border: 1.9rem;
+  }
+  body main .advantages-container__card--img-arrow-2 {
+    position: absolute;
+    width: 95%;
+    height: auto;
+    margin-top: -5px;
+    margin-left: -338px;
+    border: 1.9rem;
+  }
+  body main .advantages-container__card--h3 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 27%;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    line-height: 3rem;
+    letter-spacing: -1.43px;
+    color: rgb(73, 85, 103);
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  body main .advantages-container__card--p {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 27%;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: rgb(147, 156, 170);
+    margin-bottom: 7.5rem;
+  }
+  body main .ours-values-container {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 27%;
+    text-align: center;
+  }
+  body main .ours-values-container__h3 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 27%;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    line-height: 3rem;
+    letter-spacing: -1.43px;
+    color: rgb(73, 85, 103);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    line-height: 2rem;
+    letter-spacing: -1.43px;
+  }
+  body main .ours-values-container__card--img-1 {
+    width: 15rem;
+    height: auto;
+    align-content: center;
+  }
+  body main .ours-values-container__card--img-2 {
+    width: 15rem;
+    height: auto;
+    align-content: center;
+  }
+  body main .ours-values-container__card--img-3 {
+    width: 15rem;
+    height: auto;
+    align-content: center;
+  }
+  body main .ours-values-container__card--number-01 {
+    position: absolute;
+    width: 6rem;
+    height: auto;
+    margin-top: 180px;
+    margin-left: -170px;
+    border: 1.9rem;
+  }
+  body main .ours-values-container__card--number-02 {
+    position: absolute;
+    width: 6rem;
+    height: auto;
+    margin-top: 180px;
+    margin-left: -170px;
+    border: 1.9rem;
+  }
+  body main .ours-values-container__card--number-03 {
+    position: absolute;
+    width: 6rem;
+    height: auto;
+    margin-top: 180px;
+    margin-left: -170px;
+    border: 1.9rem;
+  }
+  body main .ours-values-container__card--h4 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 27%;
+    margin-top: 3rem;
+    text-align: center;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    letter-spacing: -1.07px;
+    color: rgb(73, 85, 103);
+    margin-bottom: 1rem;
+  }
+  body main .ours-values-container__card--p {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 27%;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: rgb(147, 156, 170);
+    margin-bottom: 2rem;
+  }
+  body main .FAQ-container {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 27%;
+  }
+  body main .FAQ-container__h3 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 27%;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    line-height: 3rem;
+    letter-spacing: -1.43px;
+    color: rgb(73, 85, 103);
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  body main .FAQ-container__h4 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 27%;
+    margin-top: 3rem;
+    text-align: center;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    letter-spacing: -1.07px;
+    color: rgb(73, 85, 103);
+    text-align: center;
+  }
+  body main .FAQ-container__details {
+    background-color: rgb(229, 236, 244);
+    margin: 1rem;
+    padding: 2rem;
+  }
+  body main .FAQ-container__details--summary {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    letter-spacing: -0.8px;
+    color: rgb(73, 85, 103);
+    list-style-image: url("../html/images/About/arrow-faq-close.svg");
+    list-style-position: outside;
+  }
+  body main .FAQ-container__details--[open] summary {
+    list-style-image: url("../html/images/About/arrow-faq-open.svg");
+    list-style-position: outside;
+  }
+  body main .FAQ-container__details--p {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 27%;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: rgb(147, 156, 170);
+    text-align: left;
+  }
+}
+@media (max-width: 375px) {
+  body main {
+    margin-bottom: 7.5rem;
+  }
+  body main .careersTitle-container {
+    background-image: url("../html/images/Careers/CareerHeaderBackground.jpg");
+    width: 100%;
+    height: auto;
+    align-content: center;
+    height: 10rem;
+  }
+  body main .careersTitle-container__h1 {
+    font-family: "Space Mono", monospace;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3rem;
+    letter-spacing: -2.5px;
+    color: rgb(242, 245, 249);
+    width: 100%;
+    height: auto;
+    top: 7.75rem;
+    left: 2rem;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: -1.79px;
+    text-align: center;
+  }
+  body main .SayHello-container {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 27%;
+    position: relative;
+    text-align: center;
+  }
+  body main .SayHello-container__card--img {
+    width: 19.4rem;
+    height: auto;
+  }
+  body main .SayHello-container__card--img-arrow-3 {
+    position: absolute;
+    width: 95%;
+    height: auto;
+    margin-top: 165px;
+    margin-left: -318px;
+    border: 1.9rem;
+    position: absolute;
+  }
+  body main .SayHello-container__card--h3 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 27%;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    line-height: 3rem;
+    letter-spacing: -1.43px;
+    color: rgb(73, 85, 103);
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  body main .SayHello-container__card--p {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 27%;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: rgb(147, 156, 170);
+    margin-bottom: 7.5rem;
+  }
+  body main .SayHello-container__card--button {
+    padding: 1rem 3rem 1rem 3rem;
+    font-family: "Space Mono", monospace;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    background-color: rgb(252, 183, 43);
+    color: rgb(242, 245, 249);
+  }
+  body main .joinUs-container {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 27%;
+    text-align: center;
+  }
+  body main .joinUs-container__h3 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 27%;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    line-height: 3rem;
+    letter-spacing: -1.43px;
+    color: rgb(73, 85, 103);
+    margin-top: 7.5rem;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    line-height: 2rem;
+    letter-spacing: -1.43px;
+  }
+  body main .joinUs-container__card--img-1 {
+    width: 15rem;
+    height: auto;
+    align-content: center;
+  }
+  body main .joinUs-container__card--img-2 {
+    width: 15rem;
+    height: auto;
+    align-content: center;
+  }
+  body main .joinUs-container__card--img-3 {
+    width: 15rem;
+    height: auto;
+    align-content: center;
+  }
+  body main .joinUs-container__card--number-01 {
+    position: absolute;
+    width: 6rem;
+    height: auto;
+    margin-top: 180px;
+    margin-left: -170px;
+    border: 1.9rem;
+  }
+  body main .joinUs-container__card--number-02 {
+    position: absolute;
+    width: 6rem;
+    height: auto;
+    margin-top: 180px;
+    margin-left: -170px;
+    border: 1.9rem;
+  }
+  body main .joinUs-container__card--number-03 {
+    position: absolute;
+    width: 6rem;
+    height: auto;
+    margin-top: 180px;
+    margin-left: -170px;
+    border: 1.9rem;
+  }
+  body main .joinUs-container__card--h4 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 27%;
+    margin-top: 3rem;
+    text-align: center;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    letter-spacing: -1.07px;
+    color: rgb(73, 85, 103);
+    margin-bottom: 1rem;
+  }
+  body main .joinUs-container__card--p {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 27%;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: rgb(147, 156, 170);
+    margin-bottom: 2rem;
+  }
+  body main .apply-container {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 27%;
+    text-align: center;
+  }
+  body main .apply-container__card {
+    background: #F2F5F9;
+    margin: 0 2rem 1rem 2rem;
+  }
+  body main .apply-container__card--button {
+    padding: 1rem 3rem 1rem 3rem;
+    font-family: "Space Mono", monospace;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    background-color: rgb(252, 183, 43);
+    color: rgb(242, 245, 249);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+  }
+  body main .apply-container__h4 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 27%;
+    margin-top: 3rem;
+    text-align: center;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    letter-spacing: -1.07px;
+    color: rgb(73, 85, 103);
+    margin-top: 2.25rem;
+    margin-bottom: 4px;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    letter-spacing: -0.8px;
+  }
+  body main .apply-container__p {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 27%;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: rgb(147, 156, 170);
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 375px) {
   .locations {
     font-family: "Space Mono", monospace;
     color: rgb(242, 245, 249);

@@ -334,7 +334,6 @@
   background-color: rgb(73, 85, 103);
   font-family: "Space Mono", monospace;
   font-weight: 700;
-  height: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -451,6 +450,8 @@
   padding-left: 12%;
   padding-right: 12%;
   justify-content: flex-start;
+  height: auto;
+  width: auto;
 }
 .container-footer__h6 {
   font-size: 28px;

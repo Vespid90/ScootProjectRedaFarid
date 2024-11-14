@@ -1,10 +1,12 @@
 //colors
 $yellow: rgb(252, 183, 43);
 $dark-navy: rgb(73, 85, 103);
-$dim-navy: rgb(147, 156, 170);
+$dim-grey: rgb(147, 156, 170);
 $light-grey: rgb(229, 236, 244);
 $snow: rgb(242, 245, 249);
 $light-yellow: rgb(255, 244, 223);
+$dark-footer: rgb(51, 58, 68);
+$footer-cirle: url('/html/images/footer/circlesFooter.svg');
 
 //Typography
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&family=Space+Mono:wght@400;700&display=swap");
@@ -16,3 +18,166 @@ $max-width-size: 2100px;
 $desktop-display: 1440px;
 $tablet-display: 768px;
 $mobile-display: 375px;
+
+//Mobile
+
+//H1
+@mixin h1 {
+  font-family: $space-mono;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3rem;
+  letter-spacing: -2.5px;
+  color: $snow
+}
+
+//H3
+@mixin h3 {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 27%;
+  text-align: center;
+  font-size: 3rem;
+  font-family: $space-mono;
+  font-weight: 700;
+  line-height: 3rem;
+  letter-spacing: -1.43px;
+  color: $dark-navy;
+}
+
+//H4
+@mixin h4 {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 27%;
+  margin-top: 3rem;
+  text-align: center;
+  font-family: $space-mono;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  letter-spacing: -1.07px;
+  color: $dark-navy;
+}
+
+//P
+@mixin p {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 27%;
+  text-align: center;
+  font-size: 0.9rem;
+  font-family: $lexend-deca;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color:$dim-grey;
+}
+
+//title-container
+@mixin title-container {
+  width: 100%;
+  height: auto;
+  align-content: center;
+}
+
+//main-container
+@mixin main-container {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 27%;
+}
+
+//Image advantages
+@mixin img-advantages {
+  width: 19.4rem;
+  height: auto;
+}
+
+//Image arrow RightToLeftUp
+@mixin img-arrow-1 {
+  position: absolute;
+  width: 95%;
+  height: auto;
+  margin-top: 128px;
+  margin-left: -318px;
+  border: 1.9rem;
+}
+
+//Image arrow LeftToRightDown
+@mixin img-arrow-2 {
+  position: absolute;
+  width: 95%;
+  height: auto;
+  margin-top: -5px;
+  margin-left: -338px;
+  border: 1.9rem;
+}
+//Image arrow RightToLeftDown
+@mixin img-arrow-3 {
+  position: absolute;
+  width: 95%;
+  height: auto;
+  margin-top: 165px;
+  margin-left: -318px;
+  border: 1.9rem;
+}
+
+//Image ours-values
+@mixin img-ours-values {
+  width: 15rem;
+  height: auto;
+  align-content: center;
+}
+
+//Image number
+@mixin number {
+  position: absolute;
+  width: 6rem;
+  height:auto;
+  margin-top: 180px;
+  margin-left:-170px;
+  border: 1.9rem;
+}
+
+//FAQ-main
+@mixin details {
+  background-color: $light-grey;
+  margin: 1rem;
+  padding: 2rem;
+}
+
+//FAQ-summary
+@mixin summary {
+  font-family: $space-mono;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  letter-spacing: -0.8px;
+  color:$dark-navy;
+  list-style-image: url("../html/images/About/arrow-faq-close.svg");
+  list-style-position: outside;
+}
+
+//Button Career page
+@mixin button {
+  padding: 1rem 3rem 1rem 3rem;
+  font-family: $space-mono;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+  background-color: $yellow;
+  color:$snow;
+}
+
+//@mixin [open]summary {
+//  list-style-image: url("../html/images/About/arrow-faq-open.svg");
+//}
+
+//FAQ-marker
+//global value
+//list-style-position: revert;

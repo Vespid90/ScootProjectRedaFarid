@@ -93,14 +93,14 @@
 }
 
 @media (max-width: 375px) {
-  body main .careersTitle-container {
-    background-image: url("../html/images/Careers/CareerHeaderBackground.jpg");
+  body main .about-container {
+    background-image: url("../html/images/About/backgroundAbout-container.jpg");
     width: 100%;
     height: auto;
     align-content: center;
     height: 10rem;
   }
-  body main .careersTitle-container__h1 {
+  body main .about-container__h1 {
     font-family: "Space Mono", monospace;
     font-size: 3rem;
     font-weight: 700;
@@ -116,7 +116,7 @@
     letter-spacing: -1.79px;
     text-align: center;
   }
-  body main .SayHello-container {
+  body main .advantages-container {
     margin-top: 4rem;
     display: flex;
     flex-direction: column;
@@ -125,20 +125,31 @@
     position: relative;
     text-align: center;
   }
-  body main .SayHello-container__card--img {
+  body main .advantages-container__card--img1 {
     width: 19.4rem;
     height: auto;
   }
-  body main .SayHello-container__card--img-arrow-3 {
+  body main .advantages-container__card--img2 {
+    width: 19.4rem;
+    height: auto;
+  }
+  body main .advantages-container__card--img-arrow-1 {
     position: absolute;
     width: 95%;
     height: auto;
-    margin-top: 165px;
+    margin-top: 128px;
     margin-left: -318px;
     border: 1.9rem;
-    position: absolute;
   }
-  body main .SayHello-container__card--h3 {
+  body main .advantages-container__card--img-arrow-2 {
+    position: absolute;
+    width: 95%;
+    height: auto;
+    margin-top: -5px;
+    margin-left: -338px;
+    border: 1.9rem;
+  }
+  body main .advantages-container__card--h3 {
     display: flex;
     flex-direction: column;
     width: auto;
@@ -155,7 +166,7 @@
     font-size: 2rem;
     line-height: 2rem;
   }
-  body main .SayHello-container__card--p {
+  body main .advantages-container__card--p {
     display: flex;
     flex-direction: column;
     width: auto;
@@ -168,24 +179,14 @@
     color: rgb(147, 156, 170);
     margin-bottom: 7.5rem;
   }
-  body main .SayHello-container__card--button {
-    padding: 1rem 3rem 1rem 3rem;
-    font-family: "Space Mono", monospace;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 25px;
-    text-align: center;
-    background-color: rgb(252, 183, 43);
-    color: rgb(242, 245, 249);
-  }
-  body main .joinUs-container {
+  body main .ours-values-container {
     display: flex;
     flex-direction: column;
     width: auto;
     height: 27%;
     text-align: center;
   }
-  body main .joinUs-container__h3 {
+  body main .ours-values-container__h3 {
     display: flex;
     flex-direction: column;
     width: auto;
@@ -197,28 +198,28 @@
     line-height: 3rem;
     letter-spacing: -1.43px;
     color: rgb(73, 85, 103);
-    margin-top: 7.5rem;
+    margin-top: 3rem;
     margin-bottom: 3rem;
     font-size: 2rem;
     line-height: 2rem;
     letter-spacing: -1.43px;
   }
-  body main .joinUs-container__card--img-1 {
+  body main .ours-values-container__card--img-1 {
     width: 15rem;
     height: auto;
     align-content: center;
   }
-  body main .joinUs-container__card--img-2 {
+  body main .ours-values-container__card--img-2 {
     width: 15rem;
     height: auto;
     align-content: center;
   }
-  body main .joinUs-container__card--img-3 {
+  body main .ours-values-container__card--img-3 {
     width: 15rem;
     height: auto;
     align-content: center;
   }
-  body main .joinUs-container__card--number-01 {
+  body main .ours-values-container__card--number-01 {
     position: absolute;
     width: 6rem;
     height: auto;
@@ -226,7 +227,7 @@
     margin-left: -170px;
     border: 1.9rem;
   }
-  body main .joinUs-container__card--number-02 {
+  body main .ours-values-container__card--number-02 {
     position: absolute;
     width: 6rem;
     height: auto;
@@ -234,7 +235,7 @@
     margin-left: -170px;
     border: 1.9rem;
   }
-  body main .joinUs-container__card--number-03 {
+  body main .ours-values-container__card--number-03 {
     position: absolute;
     width: 6rem;
     height: auto;
@@ -242,7 +243,7 @@
     margin-left: -170px;
     border: 1.9rem;
   }
-  body main .joinUs-container__card--h4 {
+  body main .ours-values-container__card--h4 {
     display: flex;
     flex-direction: column;
     width: auto;
@@ -257,7 +258,7 @@
     color: rgb(73, 85, 103);
     margin-bottom: 1rem;
   }
-  body main .joinUs-container__card--p {
+  body main .ours-values-container__card--p {
     display: flex;
     flex-direction: column;
     width: auto;
@@ -325,6 +326,7 @@
   }
   body main .FAQ-container__details--[open] summary {
     list-style-image: url("../html/images/About/arrow-faq-open.svg");
+    list-style-position: outside;
   }
   body main .FAQ-container__details--p {
     display: flex;
@@ -531,4 +533,4 @@
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=About.css.map */

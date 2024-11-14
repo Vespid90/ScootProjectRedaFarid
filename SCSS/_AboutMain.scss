@@ -1,0 +1,130 @@
+@use "variables";
+@media (max-width: variables.$mobile-display) {
+body {
+  main {
+    .about-container {
+      background-image: url("../html/images/About/backgroundAbout-container.jpg");
+      @include variables.title-container;
+      height: 10rem;
+      &__h1 {
+      @include variables.h1;
+        width: 100%;
+        height: auto;
+        top: 7.75rem;
+        left: 2rem;
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        letter-spacing: -1.79px;
+        text-align: center;
+        }
+      }
+    .advantages-container {
+      margin-top: 4rem;
+      @include variables.main-container;
+      position: relative;
+      text-align: center;
+      &__card {
+        &--img1{
+          @include variables.img-advantages;
+        }
+        &--img2{
+          @include variables.img-advantages;
+        }
+        &--img-arrow-1{
+          @include variables.img-arrow-1;
+        }
+        &--img-arrow-2{
+          @include variables.img-arrow-2;
+        }
+      }
+      &__card--h3 {
+        @include variables.h3;
+        margin-top: 3.5rem;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+        line-height: 2rem;
+      }
+      &__card--p {
+        @include variables.p;
+        margin-bottom: 7.5rem;
+      }
+
+    }
+    .ours-values-container {
+      @include variables.main-container;
+      text-align: center;
+      &__h3 {
+        @include variables.h3;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        font-size: 2rem;
+        line-height: 2rem;
+        letter-spacing: -1.43px;
+      }
+      &__card {
+        &--img-1{
+          @include variables.img-ours-values;
+        }
+        &--img-2{
+          @include variables.img-ours-values;
+        }
+        &--img-3{
+          @include variables.img-ours-values;
+        }
+
+        &--number-01 {
+          @include variables.number;
+        }
+
+        &--number-02 {
+          @include variables.number;
+        }
+
+        &--number-03 {
+          @include variables.number;
+        }
+      }
+
+      &__card--h4 {
+        @include variables.h4;
+        margin-bottom: 1rem;
+      }
+
+      &__card--p {
+        @include variables.p;
+        margin-bottom: 2rem;
+      }
+    }
+    .FAQ-container {
+      @include variables.main-container;
+      &__h3 {
+        @include variables.h3;
+        margin-top: 10rem;
+        margin-bottom: 1rem;
+        font-size: 2rem;
+        line-height: 2rem;
+      }
+      &__h4{
+        @include variables.h4;
+        text-align: center;
+      }
+      &__details {
+        @include variables.details;
+        &--summary {
+          @include variables.summary;
+        }
+        &--[open]summary {
+          list-style-image: url("../html/images/About/arrow-faq-open.svg");
+          list-style-position: outside;
+        }
+        &--p {
+          @include variables.p;
+          text-align: left;
+        }
+      }
+    }
+    }
+  }
+}
+
+

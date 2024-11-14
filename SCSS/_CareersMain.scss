@@ -46,7 +46,6 @@
         &__card--button {
           @include variables.button;
         }
-
       }
       .joinUs-container {
         @include variables.main-container;
@@ -93,33 +92,34 @@
           margin-bottom: 2rem;
         }
       }
-      .FAQ-container {
+      .apply-container {
         @include variables.main-container;
-        &__h3 {
-          @include variables.h3;
-          margin-top: 10rem;
-          margin-bottom: 1rem;
-          font-size: 2rem;
-          line-height: 2rem;
+        text-align: center;
+        &__card {
+          @include variables.content;
+          &--content {
+          }
+          &--button {
+            @include variables.button;
+            margin-left: 2rem;
+            margin-right: 2rem;
+            margin-bottom: 2rem;
+          }
         }
-        &__h4{
+        &__h4 {
           @include variables.h4;
-          text-align: center;
+          margin-top: 2.25rem;
+          margin-bottom: 4px;
+          font-size: 1.125rem;
+          line-height: 1.5rem;
+          letter-spacing: -0.8px;
         }
-        &__details {
-          @include variables.details;
-          &--summary {
-            @include variables.summary;
-          }
-          &--[open]summary {
-            list-style-image: url("../html/images/About/arrow-faq-open.svg");
-          }
-          &--p {
+          &__p {
             @include variables.p;
-            text-align: left;
+            margin-bottom: 1rem;
           }
         }
+      margin-bottom: 7.5rem;
       }
     }
   }
-}

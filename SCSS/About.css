@@ -93,17 +93,14 @@
 }
 
 @media (max-width: 375px) {
-  body main {
-    margin-bottom: 7.5rem;
-  }
-  body main .careersTitle-container {
-    background-image: url("../html/images/Careers/CareerHeaderBackground.jpg");
+  body main .about-container {
+    background-image: url("../html/images/About/backgroundAbout-container.jpg");
     width: 100%;
     height: auto;
     align-content: center;
     height: 10rem;
   }
-  body main .careersTitle-container__h1 {
+  body main .about-container__h1 {
     font-family: "Space Mono", monospace;
     font-size: 3rem;
     font-weight: 700;
@@ -119,7 +116,7 @@
     letter-spacing: -1.79px;
     text-align: center;
   }
-  body main .SayHello-container {
+  body main .advantages-container {
     margin-top: 4rem;
     display: flex;
     flex-direction: column;
@@ -128,20 +125,31 @@
     position: relative;
     text-align: center;
   }
-  body main .SayHello-container__card--img {
+  body main .advantages-container__card--img1 {
     width: 19.4rem;
     height: auto;
   }
-  body main .SayHello-container__card--img-arrow-3 {
+  body main .advantages-container__card--img2 {
+    width: 19.4rem;
+    height: auto;
+  }
+  body main .advantages-container__card--img-arrow-1 {
     position: absolute;
     width: 95%;
     height: auto;
-    margin-top: 165px;
+    margin-top: 128px;
     margin-left: -318px;
     border: 1.9rem;
-    position: absolute;
   }
-  body main .SayHello-container__card--h3 {
+  body main .advantages-container__card--img-arrow-2 {
+    position: absolute;
+    width: 95%;
+    height: auto;
+    margin-top: -5px;
+    margin-left: -338px;
+    border: 1.9rem;
+  }
+  body main .advantages-container__card--h3 {
     display: flex;
     flex-direction: column;
     width: auto;
@@ -158,7 +166,7 @@
     font-size: 2rem;
     line-height: 2rem;
   }
-  body main .SayHello-container__card--p {
+  body main .advantages-container__card--p {
     display: flex;
     flex-direction: column;
     width: auto;
@@ -171,24 +179,14 @@
     color: rgb(147, 156, 170);
     margin-bottom: 7.5rem;
   }
-  body main .SayHello-container__card--button {
-    padding: 1rem 3rem 1rem 3rem;
-    font-family: "Space Mono", monospace;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 25px;
-    text-align: center;
-    background-color: rgb(252, 183, 43);
-    color: rgb(242, 245, 249);
-  }
-  body main .joinUs-container {
+  body main .ours-values-container {
     display: flex;
     flex-direction: column;
     width: auto;
     height: 27%;
     text-align: center;
   }
-  body main .joinUs-container__h3 {
+  body main .ours-values-container__h3 {
     display: flex;
     flex-direction: column;
     width: auto;
@@ -200,28 +198,28 @@
     line-height: 3rem;
     letter-spacing: -1.43px;
     color: rgb(73, 85, 103);
-    margin-top: 7.5rem;
+    margin-top: 3rem;
     margin-bottom: 3rem;
     font-size: 2rem;
     line-height: 2rem;
     letter-spacing: -1.43px;
   }
-  body main .joinUs-container__card--img-1 {
+  body main .ours-values-container__card--img-1 {
     width: 15rem;
     height: auto;
     align-content: center;
   }
-  body main .joinUs-container__card--img-2 {
+  body main .ours-values-container__card--img-2 {
     width: 15rem;
     height: auto;
     align-content: center;
   }
-  body main .joinUs-container__card--img-3 {
+  body main .ours-values-container__card--img-3 {
     width: 15rem;
     height: auto;
     align-content: center;
   }
-  body main .joinUs-container__card--number-01 {
+  body main .ours-values-container__card--number-01 {
     position: absolute;
     width: 6rem;
     height: auto;
@@ -229,7 +227,7 @@
     margin-left: -170px;
     border: 1.9rem;
   }
-  body main .joinUs-container__card--number-02 {
+  body main .ours-values-container__card--number-02 {
     position: absolute;
     width: 6rem;
     height: auto;
@@ -237,7 +235,7 @@
     margin-left: -170px;
     border: 1.9rem;
   }
-  body main .joinUs-container__card--number-03 {
+  body main .ours-values-container__card--number-03 {
     position: absolute;
     width: 6rem;
     height: auto;
@@ -245,7 +243,7 @@
     margin-left: -170px;
     border: 1.9rem;
   }
-  body main .joinUs-container__card--h4 {
+  body main .ours-values-container__card--h4 {
     display: flex;
     flex-direction: column;
     width: auto;
@@ -260,7 +258,7 @@
     color: rgb(73, 85, 103);
     margin-bottom: 1rem;
   }
-  body main .joinUs-container__card--p {
+  body main .ours-values-container__card--p {
     display: flex;
     flex-direction: column;
     width: auto;
@@ -273,31 +271,30 @@
     color: rgb(147, 156, 170);
     margin-bottom: 2rem;
   }
-  body main .apply-container {
+  body main .FAQ-container {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 27%;
+  }
+  body main .FAQ-container__h3 {
     display: flex;
     flex-direction: column;
     width: auto;
     height: 27%;
     text-align: center;
-  }
-  body main .apply-container__card {
-    background: #F2F5F9;
-    margin: 0 2rem 1rem 2rem;
-  }
-  body main .apply-container__card--button {
-    padding: 1rem 3rem 1rem 3rem;
+    font-size: 3rem;
     font-family: "Space Mono", monospace;
-    font-size: 15px;
     font-weight: 700;
-    line-height: 25px;
-    text-align: center;
-    background-color: rgb(252, 183, 43);
-    color: rgb(242, 245, 249);
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-bottom: 2rem;
+    line-height: 3rem;
+    letter-spacing: -1.43px;
+    color: rgb(73, 85, 103);
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    line-height: 2rem;
   }
-  body main .apply-container__h4 {
+  body main .FAQ-container__h4 {
     display: flex;
     flex-direction: column;
     width: auto;
@@ -310,13 +307,28 @@
     line-height: 1.75rem;
     letter-spacing: -1.07px;
     color: rgb(73, 85, 103);
-    margin-top: 2.25rem;
-    margin-bottom: 4px;
+    text-align: center;
+  }
+  body main .FAQ-container__details {
+    background-color: rgb(229, 236, 244);
+    margin: 1rem;
+    padding: 2rem;
+  }
+  body main .FAQ-container__details--summary {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
     font-size: 1.125rem;
     line-height: 1.5rem;
     letter-spacing: -0.8px;
+    color: rgb(73, 85, 103);
+    list-style-image: url("../html/images/About/arrow-faq-close.svg");
+    list-style-position: outside;
   }
-  body main .apply-container__p {
+  body main .FAQ-container__details--[open] summary {
+    list-style-image: url("../html/images/About/arrow-faq-open.svg");
+    list-style-position: outside;
+  }
+  body main .FAQ-container__details--p {
     display: flex;
     flex-direction: column;
     width: auto;
@@ -327,13 +339,14 @@
     font-weight: 400;
     line-height: 1.5rem;
     color: rgb(147, 156, 170);
-    margin-bottom: 1rem;
+    text-align: left;
   }
 }
 .section-container {
   background-color: rgb(73, 85, 103);
   font-family: "Space Mono", monospace;
   font-weight: 700;
+  height: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -450,8 +463,6 @@
   padding-left: 12%;
   padding-right: 12%;
   justify-content: flex-start;
-  height: auto;
-  width: auto;
 }
 .container-footer__h6 {
   font-size: 28px;
@@ -522,211 +533,4 @@
   }
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-body main {
-  flex-grow: 1;
-}
-body main .locations {
-  text-align: left;
-  height: 200px;
-  font-weight: 700;
-  font-size: 60px;
-  font-family: "Space Mono", monospace;
-  background-image: url("/html/images/Locations/backgroundLocationsTitle.jpg");
-  color: rgb(242, 245, 249);
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-left: 12%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-@media (max-width: 375px) {
-  body main .locations {
-    padding: 0;
-    font-family: "Space Mono", monospace;
-    color: rgb(242, 245, 249);
-    background-image: url("/html/images/Locations/backgroundLocationsTitle.jpg");
-    height: 160px;
-    font-weight: 700;
-    font-size: 40px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-}
-body main .worldmap-container {
-  padding-left: 12%;
-  padding-right: 12%;
-  padding-bottom: 5%;
-  padding-top: 10%;
-  width: 100%;
-}
-body main .worldmap-container__card {
-  font-family: "Space Mono", monospace;
-  font-weight: 700;
-}
-body main .worldmap-container__card--imgForMobile {
-  display: none;
-}
-body main .worldmap-container__card--imgForTabletAndDesktop {
-  width: 100%;
-}
-body main .worldmap-container__card--list {
-  display: none;
-}
-@media (max-width: 375px) {
-  body main .worldmap-container {
-    padding: 20px;
-  }
-  body main .worldmap-container__card {
-    font-family: "Space Mono", monospace;
-    font-weight: 700;
-    font-size: 22px;
-    color: rgb(73, 85, 103);
-    padding-bottom: 20px;
-  }
-  body main .worldmap-container__card--imgForMobile {
-    display: block;
-    padding-top: 20px;
-    margin-bottom: 20px;
-  }
-  body main .worldmap-container__card--imgForTabletAndDesktop {
-    display: none;
-  }
-  body main .worldmap-container__card--list {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
-  body main .worldmap-container__card--list li {
-    width: 100%;
-    white-space: nowrap;
-    list-style-type: none;
-    text-align: center;
-    padding: 15px;
-    background-color: rgb(255, 244, 223);
-  }
-}
-body main .cityNot-container {
-  padding-left: 12%;
-  padding-right: 12%;
-  padding-bottom: 5%;
-  padding-top: 5%;
-  width: 100%;
-}
-body main .cityNot-container__card {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  padding-bottom: 30px;
-  gap: 50px;
-}
-body main .cityNot-container__card--h3 {
-  width: auto;
-  height: 27%;
-  text-align: center;
-  font-size: 3rem;
-  font-family: "Space Mono", monospace;
-  font-weight: 700;
-  line-height: 3rem;
-  letter-spacing: -1.43px;
-  color: rgb(73, 85, 103);
-}
-body main .cityNot-container__card--p {
-  width: auto;
-  height: 27%;
-  text-align: left;
-  font-size: 14px;
-  font-family: "Lexend Deca", sans-serif;
-  font-weight: 400;
-  line-height: 1.5rem;
-  color: rgb(147, 156, 170);
-}
-body main .cityNot-container__card--button {
-  align-items: center;
-  font-family: "Space Mono", monospace;
-  padding: 10px 40px 10px 40px;
-  font-weight: 700;
-  font-size: 12px;
-  background-color: rgb(252, 183, 43);
-  border-style: solid;
-  border-width: 2px;
-  border-color: rgb(252, 183, 43);
-  color: rgb(242, 245, 249);
-  white-space: nowrap;
-  cursor: pointer;
-}
-body main .cityNot-container__card--button:hover {
-  background-color: white;
-  color: rgb(252, 183, 43);
-}
-@media (max-width: 768px) {
-  body main .cityNot-container__card {
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media (max-width: 375px) {
-  body main .cityNot-container {
-    padding: 20px;
-  }
-  body main .cityNot-container__card {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-  }
-  body main .cityNot-container__card--h3 {
-    width: auto;
-    height: 27%;
-    text-align: center;
-    font-size: 2rem;
-    font-family: "Space Mono", monospace;
-    font-weight: 700;
-    line-height: 2rem;
-    letter-spacing: -1.43px;
-    color: rgb(73, 85, 103);
-    padding-bottom: 20px;
-  }
-  body main .cityNot-container__card--p {
-    width: auto;
-    height: 27%;
-    text-align: center;
-    font-size: 0.9rem;
-    font-family: "Lexend Deca", sans-serif;
-    font-weight: 400;
-    line-height: 1.5rem;
-    color: rgb(147, 156, 170);
-    padding-bottom: 20px;
-  }
-  body main .cityNot-container__card--button {
-    align-items: center;
-    font-family: "Space Mono", monospace;
-    padding: 10px 34px 10px 34px;
-    font-weight: 700;
-    font-size: 12px;
-    background-color: rgb(252, 183, 43);
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgb(252, 183, 43);
-    color: rgb(242, 245, 249);
-    cursor: pointer;
-  }
-  body main .cityNot-container__card--button:hover {
-    background-color: white;
-    color: rgb(252, 183, 43);
-  }
-}
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=About.css.map */

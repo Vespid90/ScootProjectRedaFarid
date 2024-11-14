@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -10,29 +9,45 @@
   <body>
     <header>
       <nav class="nav-container">
-        <a class="nav-container__hamburger"> </a>
-        <h1 class="nav-container__h1">scoot</h1>
+        <a class="nav-container__hamburger">
+          <img src="/html/images/Header/hamburger.svg" />
+        </a>
+        <h1 class="nav-container__h1">
+          <a href="home.html">scoot</a>
+        </h1>
+        <div class="nav-container__pages">
+          <a href="about.html">About</a>
+          <a href="locations.html">Location</a>
+          <a href="careers.html">Careers</a>
+        </div>
+        <a class="nav-container__button">Get Scootin</a>
       </nav>
     </header>
     <main>
+      <h2 class="locations">Locations</h2>
       <section class="worldmap-container">
-        <article class="worldmap-container--card">
+        <article class="worldmap-container__card">
           <img
-            class="worldmap-container--card__img"
+            class="worldmap-container__card--imgForMobile"
             src="images/Locations/WorldMapImg.svg"
             alt="World Map Locations"
           />
-          <ul class="worldmap-container--card__list">
-            <li>New York</li>
-            <li>London</li>
-            <li>Jakarta</li>
-            <li>Yokohama</li>
+          <img
+            class="worldmap-container__card--imgForTabletAndDesktop"
+            src="images/Locations/WorldMapImgForTabletAndDesktop.svg"
+            alt="World Map Locations"
+          />
+          <ul class="worldmap-container__card--list">
+            <li><a>New York</a></li>
+            <li><a>London</a></li>
+            <li><a>Jakarta</a></li>
+            <li><a>Yokohama</a></li>
           </ul>
         </article>
       </section>
       <section class="cityNot-container">
         <article class="cityNot-container__card">
-          <h2 class="cityNot-container__card--h2">Your City Not Listed?</h2>
+          <h3 class="cityNot-container__card--h3">Your City Not Listed?</h3>
           <p class="cityNot-container__card--p">
             If you’d like to see Scoot in your hometown, be sure to let us know.
             We track requests and plan launches based on demand. Feel free to
@@ -43,42 +58,36 @@
       </section>
     </main>
     <footer>
-        <section class="section-container">
-            <article class="section-container__card">
-                <h5 class="section-container__card--h5">
-                    Sign up and Scoot off today
-                </h5>
-                <a class="section-container__card--AppStore">
-                    <div>
-                        <img src="images\footer\AppStore.jpg" alt=""/>
-                    </div>
-                    <div>
-                        Available on the<br><span>AppStore</span></br>
-                    </div>
-                </a>
-                <a class="section-container_card--GooglePlay">
-                    <div>
-                        <img src="images\footer\GooglePlay.jpg" alt=""/>
-                    </div>
-                    <div>
-                        Get it on<br><span>GooglePlay</span></br>
-                    </div>
-                </a>
-            </article>
-        </section>
-        <h5>scoot</h5>
-        <nav class="container-footer">
-            <ul>
-                <li>About</li>
-                <li>Locations</li>
-                <li>Careers</li>
-            </ul>
-        </nav>
-        <div class="social-network">
-            <a><img src="images\footer\Facebook.jpg"/></a>
-            <a><img src="images\footer\Twitter.jpg"/></a>
-            <a><img src="images\footer\Instagram.jpg"/></a>
+      <section class="section-container">
+        <article class="section-container__card">
+          <h5 class="section-container__card--h5">
+            Sign up and<span>Scoot off today</span>
+          </h5>
+          <div class="section-container__card--social">
+            <a class="AppStore">
+              <img src="/html/images/footer/AppStore.svg" />
+              <p>Available on the<span>AppStore</span></p>
+            </a>
+            <a class="GooglePlay">
+              <img src="/html/images/footer/GooglePlay.svg" />
+              <p>Get it on<span>GooglePlay</span></p>
+            </a>
+          </div>
+        </article>
+      </section>
+      <nav class="container-footer">
+        <h6 class="container-footer__h6">scoot</h6>
+        <ul class="container-footer__ul">
+          <li><a href="about.html">About</a></li>
+          <li><a href="locations.html">Locations</a></li>
+          <li><a href="careers.html">Careers</a></li>
+        </ul>
+        <div class="container-footer__socialNetwork">
+          <a><img src="images/footer/Facebook.svg" /></a>
+          <a><img src="images/footer/Twitter.svg" /></a>
+          <a><img src="images/footer/Instagram.svg" /></a>
         </div>
+      </nav>
     </footer>
   </body>
 </html>

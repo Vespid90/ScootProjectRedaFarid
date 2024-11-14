@@ -1,0 +1,125 @@
+@use "variables";
+@media (max-width: variables.$mobile-display) {
+  body {
+    main {
+      .careersTitle-container {
+        background-image: url("../html/images/Careers/CareerHeaderBackground.jpg");
+        @include variables.title-container;
+        height: 10rem;
+        &__h1 {
+          @include variables.h1;
+          width: 100%;
+          height: auto;
+          top: 7.75rem;
+          left: 2rem;
+          font-size: 2.5rem;
+          line-height: 2.5rem;
+          letter-spacing: -1.79px;
+          text-align: center;
+        }
+      }
+      .SayHello-container {
+        margin-top: 4rem;
+        @include variables.main-container;
+        position: relative;
+        text-align: center;
+        &__card {
+          &--img{
+            @include variables.img-advantages;
+          }
+          &--img-arrow-3{
+            @include variables.img-arrow-3;
+            position: absolute;
+          }
+        }
+        &__card--h3 {
+          @include variables.h3;
+          margin-top: 3.5rem;
+          margin-bottom: 2rem;
+          font-size: 2rem;
+          line-height: 2rem;
+        }
+        &__card--p {
+          @include variables.p;
+          margin-bottom: 7.5rem;
+        }
+        &__card--button {
+          @include variables.button;
+        }
+      }
+      .joinUs-container {
+        @include variables.main-container;
+        text-align: center;
+        &__h3 {
+          @include variables.h3;
+          margin-top: 7.5rem;
+          margin-bottom: 3rem;
+          font-size: 2rem;
+          line-height: 2rem;
+          letter-spacing: -1.43px;
+        }
+        &__card {
+          &--img-1{
+            @include variables.img-ours-values;
+          }
+          &--img-2{
+            @include variables.img-ours-values;
+          }
+          &--img-3{
+            @include variables.img-ours-values;
+          }
+
+          &--number-01 {
+            @include variables.number;
+          }
+
+          &--number-02 {
+            @include variables.number;
+          }
+
+          &--number-03 {
+            @include variables.number;
+          }
+        }
+
+        &__card--h4 {
+          @include variables.h4;
+          margin-bottom: 1rem;
+        }
+
+        &__card--p {
+          @include variables.p;
+          margin-bottom: 2rem;
+        }
+      }
+      .apply-container {
+        @include variables.main-container;
+        text-align: center;
+        &__card {
+          @include variables.content;
+          &--content {
+          }
+          &--button {
+            @include variables.button;
+            margin-left: 2rem;
+            margin-right: 2rem;
+            margin-bottom: 2rem;
+          }
+        }
+        &__h4 {
+          @include variables.h4;
+          margin-top: 2.25rem;
+          margin-bottom: 4px;
+          font-size: 1.125rem;
+          line-height: 1.5rem;
+          letter-spacing: -0.8px;
+        }
+          &__p {
+            @include variables.p;
+            margin-bottom: 1rem;
+          }
+        }
+      margin-bottom: 7.5rem;
+      }
+    }
+  }

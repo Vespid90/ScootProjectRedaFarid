@@ -1,5 +1,6 @@
 @use "./variables.scss";
 @use "./reset.scss";
+
 @mixin media-maxwidth($screensize) {
   @media (max-width: $screensize) {
     @content;

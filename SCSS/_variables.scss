@@ -18,3 +18,10 @@ $max-width-size: 2100px;
 $desktop-display: 1440px;
 $tablet-display: 768px;
 $mobile-display: 375px;
+
+//mixin
+@mixin media-maxwidth($screensize) {
+    @media (max-width: $screensize) {
+      @content;
+    }
+  }

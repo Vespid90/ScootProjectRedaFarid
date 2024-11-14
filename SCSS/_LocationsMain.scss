@@ -1,0 +1,21 @@
+@use "./variables";
+
+@mixin media-maxwidth($screensize) {
+  @media (max-width: $screensize) {
+    @content;
+  }
+}
+.locations {
+  @include media-maxwidth(variables.$mobile-display) {
+    font-family: variables.$space-mono;
+    color: variables.$snow;
+    background-image: url("/html/images/Locations/backgroundLocationsTitle.jpg");
+    height: 160px;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

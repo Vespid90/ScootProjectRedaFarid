@@ -283,4 +283,19 @@
   }
 }
 
+@media (max-width: 375px) {
+  .locations {
+    font-family: "Space Mono", monospace;
+    color: rgb(242, 245, 249);
+    background-image: url("/html/images/Locations/backgroundLocationsTitle.jpg");
+    height: 160px;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

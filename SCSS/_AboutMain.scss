@@ -4,9 +4,8 @@ body {
   main {
     .about-container {
       background-image: url("../html/images/About/backgroundAbout-container.jpg");
-      @include variables.about-container;
+      @include variables.title-container;
       height: 10rem;
-      margin-top: 4rem;
       &__h1 {
       @include variables.h1;
         width: 100%;
@@ -41,6 +40,7 @@ body {
       &__card--h3 {
         @include variables.h3;
         margin-top: 3.5rem;
+        margin-bottom: 2rem;
         font-size: 2rem;
         line-height: 2rem;
       }
@@ -55,7 +55,8 @@ body {
       text-align: center;
       &__h3 {
         @include variables.h3;
-        margin-top: 4rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
         font-size: 2rem;
         line-height: 2rem;
         letter-spacing: -1.43px;
@@ -86,10 +87,12 @@ body {
 
       &__card--h4 {
         @include variables.h4;
+        margin-bottom: 1rem;
       }
 
       &__card--p {
         @include variables.p;
+        margin-bottom: 2rem;
       }
     }
     .FAQ-container {
@@ -112,6 +115,7 @@ body {
         }
         &--[open]summary {
           list-style-image: url("../html/images/About/arrow-faq-open.svg");
+          list-style-position: outside;
         }
         &--p {
           @include variables.p;

@@ -73,11 +73,11 @@ $mobile-display: 375px;
   font-family: $lexend-deca;
   font-weight: 400;
   line-height: 1.5rem;
-  color:$dim-navy;
+  color:$dim-grey;
 }
 
-//about-container
-@mixin about-container {
+//title-container
+@mixin title-container {
   width: 100%;
   height: auto;
   align-content: center;
@@ -114,6 +114,15 @@ $mobile-display: 375px;
   height: auto;
   margin-top: -5px;
   margin-left: -338px;
+  border: 1.9rem;
+}
+//Image arrow RightToLeftDown
+@mixin img-arrow-3 {
+  position: absolute;
+  width: 95%;
+  height: auto;
+  margin-top: 165px;
+  margin-left: -318px;
   border: 1.9rem;
 }
 
@@ -153,7 +162,19 @@ $mobile-display: 375px;
   list-style-position: outside;
 }
 
-//@mixin [open] summary {
+//Button Career page
+@mixin button {
+  padding: 1rem 3rem 1rem 3rem;
+  font-family: $space-mono;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+  background-color: $yellow;
+  color:$snow;
+}
+
+//@mixin [open]summary {
 //  list-style-image: url("../html/images/About/arrow-faq-open.svg");
 //}
 

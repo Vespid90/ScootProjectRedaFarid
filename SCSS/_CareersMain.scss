@@ -68,25 +68,20 @@
           &--img-3{
             @include variables.img-ours-values;
           }
-
           &--number-01 {
             @include variables.number;
           }
-
           &--number-02 {
             @include variables.number;
           }
-
           &--number-03 {
             @include variables.number;
           }
         }
-
         &__card--h4 {
           @include variables.h4;
           margin-bottom: 1rem;
         }
-
         &__card--p {
           @include variables.p;
           margin-bottom: 2rem;

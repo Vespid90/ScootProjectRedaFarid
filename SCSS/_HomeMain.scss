@@ -1,0 +1,57 @@
+@use "variables";
+@media (max-width: variables.$mobile-display) {
+  body {
+    main {
+      .scooter-sharing-container {
+        background-image: url("../html/images/Home/backgroundHomeContainer.jpg");
+        @include variables.title-container;
+        height: 10rem;
+        &__h1 {
+          @include variables.h1;
+          width: 100%;
+          height: auto;
+          top: 7.75rem;
+          left: 2rem;
+          font-size: 2.5rem;
+          line-height: 2.5rem;
+          letter-spacing: -1.79px;
+          text-align: center;
+        }
+      }
+      .advantages-container {
+        margin-top: 4rem;
+        @include variables.main-container;
+        position: relative;
+        text-align: center;
+        &__card {
+          &--img1{
+            @include variables.img-advantages;
+          }
+          &--img2{
+            @include variables.img-advantages;
+          }
+          &--img-arrow-1{
+            @include variables.img-arrow-1;
+          }
+          &--img-arrow-2{
+            @include variables.img-arrow-2;
+          }
+        }
+        &__card--h3 {
+          @include variables.h3;
+          margin-top: 3.5rem;
+          margin-bottom: 2rem;
+          font-size: 2rem;
+          line-height: 2rem;
+        }
+        &__card--p {
+          @include variables.p;
+          margin-bottom: 7.5rem;
+        }
+
+      }
+    }
+  }
+}
+
+
